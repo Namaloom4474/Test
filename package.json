@@ -1,0 +1,20 @@
+{
+  "name": "production",
+  "version": "1.0.0",
+  "description": "It calculates sales value total and each",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "echo 'Build step completed'"
+  },
+  "author": "MG",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
