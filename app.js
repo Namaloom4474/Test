@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.static("public"));
 
-const commissionCalculator = require("./routes/commissionCalculator");
+const commissionCalculator = require("./routes/commissionCalculator.js");
 
 const PORT = process.env.PORT || 3000;
 
