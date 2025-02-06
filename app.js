@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
 });
 
-app.post("/calculate", commissionCalculator.calculateSalary);
+app.post("/api/calculate", commissionCalculator.calculateSalary);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
